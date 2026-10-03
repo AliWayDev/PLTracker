@@ -37,6 +37,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1cb21033-a216-4f03-bb35-cba4f31209b3"
+      }
+    },
+    "owner": "thealivision"
   }
 }
