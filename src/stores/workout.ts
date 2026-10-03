@@ -38,8 +38,8 @@ export const useWorkoutStore = create<IWorkoutStore>()((set) => ({
     updateSet: (
         workoutId: string,
         setId: string,
-        updatedSet: IWorkoutSet
-    ) => { },
+        updatedSet: IWorkoutSet,
+    ) => { },    
     removeSet: (workoutId: string, setId: string) => { },
     finishWorkout: (workoutId: string, notes: string) => { }
 }))
