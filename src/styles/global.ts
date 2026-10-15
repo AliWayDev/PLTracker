@@ -40,6 +40,11 @@ export const globalStyle = StyleSheet.create({
 
         width: "100%",
     },
+    exercise_block: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: 13,
+    },
     tabs: {
         backgroundColor: "#032b41ff",
         marginTop: 0
